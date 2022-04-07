@@ -17,10 +17,10 @@ Do not add -lrt after -pthread when compiling.
 Original project instructions: https://learn.kent.edu/bbcswebdav/pid-14620835-dt-content-rid-190571344_1/xid-190571344_1
 
 # Example Output: 
-dsant@LAPTOP-ED06EE62 MINGW64 ~/Desktop/VS code projects/C-C++ workspace (master)
+dsant@LAPTOP MINGW64 ~/Desktop/VS code projects/C-C++ workspace (master)
 $ gcc producerConsumer.c -pthread -o producerConsumer
 
-dsant@LAPTOP-ED06EE62 MINGW64 ~/Desktop/VS code projects/C-C++ workspace (master)
+dsant@LAPTOP MINGW64 ~/Desktop/VS code projects/C-C++ workspace (master)
 $ ./producerConsumer
 
 Produced 41
