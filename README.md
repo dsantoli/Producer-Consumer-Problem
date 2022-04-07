@@ -9,4 +9,7 @@ Compile :
 $ producerConsumer.c -pthread -o producerConsumer
 $ ./producerConsumer
 # More information
-More producers can be created by altering THREADSIZE   
+More producers can be created by altering THREADSIZE.  
+Do not add -lrt after -pthread when compiling. 
+Original project instructions: https://learn.kent.edu/bbcswebdav/pid-14620835-dt-content-rid-190571344_1/xid-190571344_1
+            
