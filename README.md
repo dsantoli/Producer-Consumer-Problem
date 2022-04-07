@@ -7,6 +7,8 @@ Creates one producer and one consumer. Producer produces 100 random numbers and 
 # How to compile
 Compile :
 $ producerConsumer.c -pthread -o producerConsumer
+
+
 $ ./producerConsumer
 # More information
 More producers can be created by altering THREADSIZE.  
