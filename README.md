@@ -6,12 +6,13 @@ I implemented this using one file. Read the comments in producerConsumer.c for m
 Creates one producer and one consumer. Producer produces 100 random numbers and consumer consumes 100 numbers. The producer and consumer are synchronized working as fast as possible. Producer will most likely produce 2 items to start then consumer will start consuming. Producer will produce after item is consumed.The first item produced is last consumed.
 # How to compile
 Compile :
-$ producerConsumer.c -pthread -o producerConsumer
 
+$ producerConsumer.c -pthread -o producerConsumer
 
 $ ./producerConsumer
 # More information
 More producers can be created by altering THREADSIZE.  
 Do not add -lrt after -pthread when compiling. 
+
 Original project instructions: https://learn.kent.edu/bbcswebdav/pid-14620835-dt-content-rid-190571344_1/xid-190571344_1
             
