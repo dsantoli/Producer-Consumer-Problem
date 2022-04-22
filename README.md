@@ -9,7 +9,7 @@ More producers can be created by altering THREADSIZE.
 # How to compile
 Compile :
 
-$ producerConsumer.c -pthread -o producerConsumer
+$ gcc producerConsumer.c -pthread -o producerConsumer
 
 $ ./producerConsumer
 
